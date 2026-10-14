@@ -1,0 +1,183 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 30px 16px;
+  background: #fffaf3;
+  color: #294764;
+  font-family: "DM Sans", Arial, sans-serif;
+}
+
+.container {
+  max-width: 950px;
+  margin: auto;
+}
+
+.profile {
+  text-align: center;
+  background: #ffffff;
+  border: 2px solid #a8c5d9;
+  border-radius: 28px;
+  padding: 30px 16px;
+  margin-bottom: 55px;
+  box-shadow: 0 10px 25px #547c9c12;
+}
+
+.icon {
+  font-size: 40px;
+}
+
+.profile p {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(27px, 5vw, 44px);
+  color: #345779;
+  margin: 8px 0;
+}
+
+.year {
+  font-weight: 700;
+}
+
+.label {
+  display: inline-block;
+  background: #f0dce4;
+  color: #79556b;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.profile h3 {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.cycle {
+  position: relative;
+  background: #ffffff;
+  border: 2px solid #a8c5d9;
+  border-radius: 25px;
+  padding: 35px 18px 20px;
+  margin-bottom: 45px;
+}
+
+.cycle h2 {
+  position: absolute;
+  top: -27px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  width: 250px;
+  max-width: 85%;
+  text-align: center;
+  padding: 12px;
+  border-radius: 30px;
+  background: #91b5ce;
+  color: white;
+  letter-spacing: 4px;
+  font-size: 18px;
+}
+
+.cycle-two {
+  border-color: #d9a8b8;
+}
+
+.cycle-two h2 {
+  background: #d5a0b4;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #eaf2f8;
+  color: #345779;
+  text-align: left;
+  padding: 15px 12px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.cycle-two th {
+  background: #f8eaf0;
+  color: #8e526b;
+}
+
+td {
+  padding: 15px 12px;
+  border-bottom: 1px solid #d4e3ed;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.cycle-two td {
+  border-bottom-color: #edd3dd;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background: #f8fafd;
+}
+
+.cycle-two tbody tr:hover {
+  background: #fff5f8;
+}
+
+td:first-child {
+  width: 36%;
+  white-space: nowrap;
+}
+
+footer {
+  text-align: center;
+  color: #ad7d91;
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+  font-size: 23px;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 18px 10px;
+  }
+
+  .profile {
+    padding: 25px 12px;
+  }
+
+  .cycle {
+    padding: 30px 8px 12px;
+  }
+
+  th {
+    padding: 12px 7px;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  td {
+    padding: 12px 7px;
+    font-size: 10px;
+    overflow-wrap: anywhere;
+    white-space: normal;
+  }
+
+  td:first-child {
+    width: 39%;
+    white-space: normal;
+  }
+}
